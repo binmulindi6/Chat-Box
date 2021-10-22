@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <script src="assets/js/app.js" defer> </script>
+    <title>Chat-Box</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <span class="title"> Chat-Box </span>
+            <div class="state">
+                    L : <input onclick="left()" id="L" type="radio" value="left" name="hand" checked>
+                    R : <input onclick="right()" id="R" type="radio" value="right" name="hand" >
+                </div>
+            </div>
+        <div id="display">
+            
+            <div class="left-chat">
+                <div class="avatar"><img src="assets/img/icon/img_avatar2.png"> 
+                </div>
+                <div class="chat-text">
+                Select <strong> L </strong> on the menu to use the Left chat user
+                <span class="time"> 10:00:56 </span> 
+                </div>
+            </div>
+            <div class="right-chat">
+                <div class="avatar"> <img src="assets/img/icon/img_avatar2.png"> </div>
+                <div class="chat-text">
+                Select <strong>R</strong> on the menu to use the Right chat user 
+                <span class="time"> 10:02:01 </span> 
+               
+                </div>
+            </div>
+          
+           
+           
+        </div>
+        <div class="footer">
+            <textarea id="text-input" placeholder="type something ..." autofocus> </textarea>
+            <button type="submit" id="btn-send"> send </button>
+        </div>
+    </div>
+    
+</body>
+</html>
