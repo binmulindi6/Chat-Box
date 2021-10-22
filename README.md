@@ -1,2 +1,3 @@
 # Chat-Box
-Chat Box Using Native JavaScript
+Chat Box Using Pure JavaScript
+Enjoy 😊 
